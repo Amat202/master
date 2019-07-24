@@ -4,7 +4,7 @@ class Human:
 		self.name=name
 		self.size=size
 	def present(self):
-		print('{}: {} cm'.format(self.name,self.size))
+		print('{}: {} cm'.format(self.name,self.size),end=" ,")
 
 class Worker(Human):
 	def __init__(self,name,size,job):
